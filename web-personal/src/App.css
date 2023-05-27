@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+/*estilo barra navegación superior*/
+.horizontal-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  background-color: #333333;
+  margin: 0;
+  height: 50px; /* Adjust the height as needed */
+}
+
+.horizontal-list li {
+  margin-right: 10px;
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0;
+}
+
+.horizontal-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+
+/*fondo de pantalla*/
+body {
+  background-color: #2b2445;
+  background-image: linear-gradient( #2b2445 0%, #0a0911 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
