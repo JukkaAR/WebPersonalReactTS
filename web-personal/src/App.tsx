@@ -28,8 +28,11 @@ function App() {
 
         <main>
           <section id="home">
-            <h1>Bienvenido a mi Web personal</h1>
+            <h1>Bienvenido a mi Web</h1>
             <p>Mi nombre es Jukka Ahola, he estudiado DAM y busco ser programador</p>
+            <div className="image-container">
+            <img src="src/assets/hombre_programando.gif" alt="Description of the image" />
+          </div>
           </section>
 
           <section id="knowledge">
@@ -47,7 +50,9 @@ function App() {
 
           <section id="about">
             <h2>Sobre mí</h2>
-            <p>Tengo 23 años, soy tanto finlandés como chileno.</p>
+            <p>Tengo 23 años, soy finlandés y chileno.<br/>
+            Me encanta trabajar tanto en equipo como individualmente.<br/> 
+            Valoro mucho la sinceridad y el respeto, ya que no hay solución a un problema que no queremos reconocer y cuando cooperamos siempre funcionamos mejor</p>
           </section>
 
           <section id="projects">
@@ -55,12 +60,14 @@ function App() {
             <p>En los siguientes enlaces podrás ver mis proyectos en GitHub</p>
             <ul>
               <li>
-                <h3>Proyecto de final de grado</h3>
-                <p>Description of Project 1</p>
+                <h3>
+                  <a href="">Proyecto de final de grado</a>
+                </h3>
               </li>
               <li>
-                <h3>Proyecto de Web Personal</h3>
-                <p>Description of Project 2</p>
+                <h3>
+                  <a href="https://github.com/JukkaAR/WebPersonalReactTS">Proyecto de Web Personal</a>
+                </h3>
               </li>
             </ul>
           </section>
