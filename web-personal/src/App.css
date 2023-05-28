@@ -82,3 +82,17 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+li {
+  margin: 10px;
+}
+ul{
+  list-style: none;
+}
+section.hidden {
+  display: none;
+}

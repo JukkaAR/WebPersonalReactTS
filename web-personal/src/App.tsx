@@ -1,4 +1,5 @@
 import "./App.css";
+import { Conocer } from "./conocer";
 
 function App() {
   return (
@@ -84,6 +85,7 @@ function App() {
               <button type="submit">Enviar mensaje</button>
             </form>
           </section>
+          <Conocer></Conocer>
         </main>
 
         <footer>
