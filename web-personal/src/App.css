@@ -111,11 +111,3 @@ h2{
 #home .content-container h4 {
   flex: 1;
 }
-
-#home .image-container {
-  margin-left: 20px; /* Adjust the margin as needed */
-}
-.image-container img {
-  max-width: 100%; /* Set the maximum width to 100% of the container */
-  height: auto; /* Maintain the aspect ratio */
-}
