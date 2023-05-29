@@ -119,17 +119,3 @@ h2{
   max-width: 100%; /* Set the maximum width to 100% of the container */
   height: auto; /* Maintain the aspect ratio */
 }
-
-/* Media query for screens smaller than 600px */
-@media (max-width: 600px) {
-  .image-container img {
-    max-width: 80%; /* Reduce the maximum width for smaller screens */
-  }
-}
-
-/* Media query for screens smaller than 400px */
-@media (max-width: 400px) {
-  .image-container img {
-    max-width: 60%; /* Further reduce the maximum width for even smaller screens */
-  }
-}
