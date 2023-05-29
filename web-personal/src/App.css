@@ -31,6 +31,11 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 480px) {
+  body {
+    min-width: 320px; /* Set your desired minimum width for mobile devices */
+  }
+}
 
 .card {
   padding: 2em;
