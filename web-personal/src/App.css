@@ -77,14 +77,6 @@ p{
   
 }
 
-/*fondo de pantalla*/
-body {
-  background-color: #2b2445;
-  background-image: linear-gradient( #2b2445 0%, #0a0911 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
