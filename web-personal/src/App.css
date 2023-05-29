@@ -1,5 +1,5 @@
 #root {
-  width: 800px;  
+  width: clamp(400px,100%,1280px);
   margin: 0 auto;
   padding: 2rem;
 }
@@ -29,11 +29,6 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
-  }
-}
-@media (max-width: 480px) {
-  body {
-    min-width: 320px; /* Set your desired minimum width for mobile devices */
   }
 }
 
