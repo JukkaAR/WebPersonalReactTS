@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -73,7 +72,10 @@
   z-index: 999;
 }
 
-
+p{
+  font-size: 1.5em;
+  
+}
 
 /*fondo de pantalla*/
 body {
@@ -95,4 +97,21 @@ ul{
 }
 section.hidden {
   display: none;
+}
+h2{
+  font-size: 2.5em;
+}
+
+/*Estilo Home*/
+#home .content-container {
+  display: flex;
+  align-items: center;
+}
+
+#home .content-container h4 {
+  flex: 1;
+}
+
+#home .image-container {
+  margin-left: 20px; /* Adjust the margin as needed */
 }
