@@ -14,13 +14,13 @@ function App() {
           <Navegacion></Navegacion>
         </header>
 
-        <main>
+        <body>
           <Inicio></Inicio>
+          <Conocer></Conocer>
           <SobreMi></SobreMi>
           <Proyectos></Proyectos>
-          <Conocer></Conocer>
           <Contactar></Contactar>
-        </main>
+        </body>
 
         <footer>
           <p>&copy; 2023 Jukka Ahola</p>
