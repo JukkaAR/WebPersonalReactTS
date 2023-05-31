@@ -84,14 +84,14 @@ h2{
   }
 }
 .responsive-image {
-  width: 5%; /* Set the width to 100% */
+  width: 30%; /* Set the width to 100% */
   height: auto; /* Auto-adjust the height to maintain aspect ratio */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1080px) {
   /* Adjust the breakpoint value as per your needs */
   .responsive-image {
-    width: 30%; /* Set a custom width for larger screens */
+    width: 5%; /* Set a custom width for larger screens */
   }
 }
 .text-container {
