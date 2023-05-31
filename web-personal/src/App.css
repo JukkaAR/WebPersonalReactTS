@@ -84,7 +84,7 @@ h2{
   }
 }
 .responsive-image {
-  width: 10%; /* Set the width to 100% */
+  width: 5%; /* Set the width to 100% */
   height: auto; /* Auto-adjust the height to maintain aspect ratio */
 }
 
