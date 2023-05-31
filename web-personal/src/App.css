@@ -83,17 +83,18 @@ h2{
     opacity: 1;
   }
 }
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  .responsive-image {
+    /* Styles specific to mobile devices */
+    width: 5%;
+  }
+}
 .responsive-image {
   width: 30%; /* Set the width to 100% */
   height: auto; /* Auto-adjust the height to maintain aspect ratio */
 }
 
-@media (max-width: 1080px) {
-  /* Adjust the breakpoint value as per your needs */
-  .responsive-image {
-    width: 5%; /* Set a custom width for larger screens */
-  }
-}
 .text-container {
   width: 400px; /* Adjust the width as needed */
   margin: 0 auto; /* Center horizontally */
