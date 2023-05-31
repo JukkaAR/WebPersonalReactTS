@@ -4,12 +4,7 @@
   width: clamp(200px, 50%, 1280px);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 
@@ -28,7 +23,7 @@ h6 {
   justify-content: center;
   background-color: #333333;
   margin: 0;
-  height: 50px; /* Adjust the height as needed */
+  height: 3rem; /* Adjust the height as needed */
 }
 
 .horizontal-list li {
@@ -95,20 +90,10 @@ h2 {
   }
 }
 
-.text-container {
-  width: 400px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center horizontally */
-  text-align: center; /* Center the text within the container */
-}
-
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
   #root {
-    width: 100%;
-  }
-
-  .text-container {
-    width: 100%; /* Adjust the width as needed */
+    width: 85%;
   }
 
   .responsive-image {
