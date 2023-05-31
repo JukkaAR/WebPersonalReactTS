@@ -90,10 +90,7 @@ h2{
     width: 5%;
   }
 }
-.responsive-image {
-  width: 30%; /* Set the width to 100% */
-  height: auto; /* Auto-adjust the height to maintain aspect ratio */
-}
+
 
 .text-container {
   width: 400px; /* Adjust the width as needed */

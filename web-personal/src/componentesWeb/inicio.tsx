@@ -37,7 +37,7 @@ export const Inicio: React.FC = () => {
         Soy {text}<span className="cursor"/> {/* Vertical rectangle cursor */}
       </h2>
       </div>
-      <img src="/hombre_programando.gif" alt="Gif Hombre programando" />
+      <img src="/hombre_programando.gif" alt="Gif Hombre programando" className='responsive-image'/>
     </section>
   );
 };
