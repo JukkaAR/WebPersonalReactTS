@@ -9,23 +9,17 @@ import { SobreMi } from "./componentesWeb/sobreMi";
 function App() {
   return (
     <>
-      <div>
         <header>
           <Navegacion></Navegacion>
         </header>
-
-        <body>
-          <Inicio></Inicio>
-          <Conocer></Conocer>
-          <SobreMi></SobreMi>
-          <Proyectos></Proyectos>
-          <Contactar></Contactar>
-        </body>
-
+        <Inicio></Inicio>
+        <Conocer></Conocer>
+        <SobreMi></SobreMi>
+        <Proyectos></Proyectos>
+        <Contactar></Contactar>
         <footer>
           <p>&copy; 2023 Jukka Ahola</p>
         </footer>
-      </div>
     </>
   );
 }

@@ -7,7 +7,9 @@
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-
+.align-left{
+  text-align: justify;
+}
 
 .read-the-docs {
   color: #888;
@@ -80,4 +82,20 @@ h2{
   100% {
     opacity: 1;
   }
+}
+.responsive-image {
+  width: 10%; /* Set the width to 100% */
+  height: auto; /* Auto-adjust the height to maintain aspect ratio */
+}
+
+@media (min-width: 768px) {
+  /* Adjust the breakpoint value as per your needs */
+  .responsive-image {
+    width: 30%; /* Set a custom width for larger screens */
+  }
+}
+.text-container {
+  width: 400px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center the text within the container */
 }
