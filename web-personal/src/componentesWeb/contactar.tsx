@@ -1,6 +1,6 @@
 export const Contactar = () => {
     return(
-        <div>
+        <div className="square-container">
             <section id="contact">
             <h2>Contáctame</h2>
             <form>

@@ -1,6 +1,6 @@
 export const SobreMi = () => {
     return(
-        <div>
+        <div className="square-container">
             <section id="about">
             <h2>Sobre mí</h2>
             <p>Tengo 23 años, soy finlandés y chileno.<br/>
