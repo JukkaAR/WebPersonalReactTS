@@ -38,6 +38,8 @@ export const Inicio: React.FC = () => {
       </h2>
       </div>
       <img src="/hombre_programando.gif" alt="Gif Hombre programando" className='responsive-image'/>
+      
     </section>
+    
   );
 };

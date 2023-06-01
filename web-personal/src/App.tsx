@@ -12,7 +12,9 @@ function App() {
         <header>
           <Navegacion></Navegacion>
         </header>
+
         <Inicio></Inicio>
+
         <Conocer></Conocer>
         <SobreMi></SobreMi>
         <Proyectos></Proyectos>
