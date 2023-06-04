@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 export const Inicio: React.FC = () => {
+  //Animación de escritura
   const [text, setText] = useState<string>('');
   const [index, setIndex] = useState<number>(0);
   const texts: string[] = ["Jukka Ahola","programador", "chileno", "joven","finlandés"];

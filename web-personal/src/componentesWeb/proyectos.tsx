@@ -1,6 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 export const Proyectos = () => {
+  useEffect(()=>{
+    AOS.init({duration: 2000})
+  },[]);
     return(
-        <div className="square-container">
+        <div className="square-container" data-aos="fade-right">
             <section id="projects">
             <h2>.proyectos.toList()</h2>
             <p>En los siguientes enlaces podrás ver mis proyectos en GitHub</p>

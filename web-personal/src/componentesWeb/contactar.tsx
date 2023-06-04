@@ -1,6 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 export const Contactar = () => {
+  useEffect(()=>{
+    AOS.init({duration: 2000})
+  },[]);
     return(
-        <div className="square-container">
+        <div className="square-container" data-aos="fade-left">
             <section id="contact">
             <h2>.contactar()</h2>
             <form>
