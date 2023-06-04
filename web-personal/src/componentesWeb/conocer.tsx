@@ -9,7 +9,7 @@ export const Conocer = () => {
     return(
         <div className="square-container" data-aos="fade-right">
             <section id="knowledge">
-            <h2>.getConocimientos()</h2>
+            <h2>Conocimientos</h2>
             <p>He cursado DAM, pero especificando más, conozco &#40;y espero aprender más&#41;, los siguientes lenguajes de programación:</p>
             <ul>
               <li>- C#</li>

@@ -9,7 +9,7 @@ export const Contactar = () => {
     return(
         <div className="square-container" data-aos="fade-left">
             <section id="contact">
-            <h2>.contactar()</h2>
+            <h2>Contactar</h2>
             <form>
               <label htmlFor="name">Nombre:</label>
               <input type="text" id="name" name="name" required />
