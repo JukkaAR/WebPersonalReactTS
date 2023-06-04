@@ -2,6 +2,8 @@
   margin: 0 auto;
   padding: 0rem;
   width: clamp(200px, 50%, 1280px);
+  overflow-x: hidden;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
