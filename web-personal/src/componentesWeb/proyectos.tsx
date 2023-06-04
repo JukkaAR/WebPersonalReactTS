@@ -2,7 +2,7 @@ export const Proyectos = () => {
     return(
         <div className="square-container">
             <section id="projects">
-            <h2>Proyectos</h2>
+            <h2>.proyectos.toList()</h2>
             <p>En los siguientes enlaces podrás ver mis proyectos en GitHub</p>
             <ul>
               <li>

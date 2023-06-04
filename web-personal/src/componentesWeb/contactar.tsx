@@ -2,7 +2,7 @@ export const Contactar = () => {
     return(
         <div className="square-container">
             <section id="contact">
-            <h2>Contáctame</h2>
+            <h2>.contactar()</h2>
             <form>
               <label htmlFor="name">Nombre:</label>
               <input type="text" id="name" name="name" required />
