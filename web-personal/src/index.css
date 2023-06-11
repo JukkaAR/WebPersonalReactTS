@@ -16,6 +16,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+@media screen and (max-width: 767px) {
+  :root{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e);
+    animation: none;
+  }
+}
 
 @keyframes gradient {
 0% {
