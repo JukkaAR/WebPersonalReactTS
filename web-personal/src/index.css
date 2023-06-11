@@ -19,7 +19,6 @@
 /*Ajustes movil*/
 @media screen and (max-width: 767px) {
   :root{
-    background-color: #ee7752;
     animation: none;
   }
 }
