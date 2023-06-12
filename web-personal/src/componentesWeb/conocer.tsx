@@ -10,7 +10,7 @@ export const Conocer = () => {
         <div className="square-container" data-aos="fade-right">
             <section id="knowledge">
             <h2>Conocimientos</h2>
-            <p>He cursado Desarrollo de aplicaciones multiplataforma &#40;DAM&#41;, pero especificando más, conozco &#40;y espero aprender más&#41;, los siguientes lenguajes de programación:</p>
+            <p>He cursado Desarrollo de aplicaciones multiplataforma &#40;DAM&#41;, pero especificando más, conozco los siguientes lenguajes de programación:</p>
             <ul>
               <li>- C#</li>
               <li>- Java</li>

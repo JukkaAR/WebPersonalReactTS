@@ -10,7 +10,7 @@ export const Contactar = () => {
         <div className="square-container" data-aos="fade-left">
             <section id="contact">
             <h2>Contactar</h2>
-            <form>
+            <form data-netlify="true" method='POST'>
               <label htmlFor="name">Nombre:</label>
               <input type="text" id="name" name="name" required />
               <label htmlFor="email">Email:</label>

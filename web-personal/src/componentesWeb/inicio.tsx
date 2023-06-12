@@ -37,8 +37,7 @@ export const Inicio: React.FC = () => {
   };
 
   return (
-    <section id="home">
-      <h1>Bienvenido a mi Web</h1>
+    <section id="home" style={{ marginTop: "2rem" }}>
       <div className="flex-container">
       <div>
         <h2 className="align-left" style={{ width: "400px" }}>
