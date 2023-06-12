@@ -8,16 +8,18 @@ export const Contactar = () => {
   },[]);
     return(
         <div className="square-container" data-aos="fade-left">
+
             <section id="contact">
             <h2>Contactar</h2>
-            <form data-netlify="true" method='POST'>
-              <label htmlFor="name">Nombre:</label>
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
               <input type="text" id="name" name="name" required />
               <label htmlFor="email">Email:</label>
               <input type="email" id="email" name="email" required />
               <label htmlFor="message">Mensaje:</label>
               <textarea id="message" name="message" required></textarea>
               <button type="submit">Enviar mensaje</button>
+  {/* Rest of the form fields */}
             </form>
           </section>
         </div>
