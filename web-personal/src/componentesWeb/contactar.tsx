@@ -11,14 +11,14 @@ export const Contactar = () => {
 
             <section id="contact">
             <h2>Contactar</h2>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <input type="text" id="name" name="name" required />
               <label htmlFor="email">Email:</label>
               <input type="email" id="email" name="email" required />
               <label htmlFor="message">Mensaje:</label>
               <textarea id="message" name="message" required></textarea>
-              <input type="submit">Enviar mensaje</input>
+              <button type="submit">Enviar mensaje</button>
   {/* Rest of the form fields */}
             </form>
           </section>
