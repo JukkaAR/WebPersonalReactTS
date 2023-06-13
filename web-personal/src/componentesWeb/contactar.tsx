@@ -10,8 +10,8 @@ export const Contactar = () => {
     <div className="square-container" data-aos="fade-left">
       <section id="contact">
         <h2>Contactar</h2>
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="Contact" />
+        <form name="contacto" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="Contacto" />
           <p>
             <label>
               Your Name: <input type="text" name="name" />
