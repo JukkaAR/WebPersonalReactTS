@@ -11,7 +11,7 @@ export const Contactar = () => {
       <section id="contact">
         <h2>Contactar</h2>
         <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="Contact" />
           <p>
             <label>
               Your Name: <input type="text" name="name" />
