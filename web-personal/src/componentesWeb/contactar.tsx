@@ -18,7 +18,7 @@ export const Contactar = () => {
               <input type="email" id="email" name="email" required />
               <label htmlFor="message">Mensaje:</label>
               <textarea id="message" name="message" required></textarea>
-              <button type="submit">Enviar mensaje</button>
+              <input type="submit">Enviar mensaje</input>
   {/* Rest of the form fields */}
             </form>
           </section>
