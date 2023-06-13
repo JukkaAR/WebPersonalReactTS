@@ -22,10 +22,6 @@ function App() {
         <Conocer/>
         <SobreMi/>
         <Proyectos/>
-        <Contactar/>
-        <footer>
-          <p>&copy; 2023 Jukka Ahola</p>
-        </footer>
     </>
   );
 }
