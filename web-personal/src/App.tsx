@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
 import { Conocer } from "./componentesWeb/conocer";
-import { Contactar } from "./componentesWeb/contactar";
 import { Inicio } from "./componentesWeb/inicio";
 import { Navegacion } from "./componentesWeb/navegacion";
 import { Proyectos } from "./componentesWeb/proyectos";
