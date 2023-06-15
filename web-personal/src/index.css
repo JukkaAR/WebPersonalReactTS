@@ -21,19 +21,6 @@
   :root{
     animation: none;
   }
-  #root {
-    width: 85%;
-  }
-
-  .responsive-image {
-    width: 100%; /* Styles specific to mobile devices */
-  }
-  p{
-    font-size: 1rem;
-  }
-  h1,h2,h3,h4,h5,h6{
-    font-size: 2rem;
-  }
 }
 
 @keyframes gradient {
@@ -101,21 +88,6 @@ button:focus-visible {
   margin-bottom: 2rem;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15px);
+  
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 767px) {
-  #root {
-    width: 85%;
-  }
-
-  .responsive-image {
-    width: 100%; /* Styles specific to mobile devices */
-  }
-  p{
-    font-size: 1rem;
-  }
-  h1,h2,h3,h4,h5,h6{
-    font-size: 2rem;
-  }
-}
