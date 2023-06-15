@@ -94,12 +94,6 @@ h2 {
 
 
 /*Fondos de pantalla*/
-.fondoChile {
-  background-image: url("/banderaChile.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .flex-container {
   display: flex;
@@ -120,10 +114,6 @@ h2 {
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
-  #root {
-    width: 85%;
-  }
-
   .responsive-image {
     width: 100%; /* Styles specific to mobile devices */
   }
