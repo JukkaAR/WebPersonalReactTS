@@ -20,6 +20,8 @@
 @media screen and (max-width: 767px) {
   :root{
     animation: none;
+  }
+  #root {
     width: 85%;
   }
 
