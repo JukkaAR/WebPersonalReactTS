@@ -65,6 +65,7 @@ li {
 
 ul {
   list-style: none;
+  align-content: center;
 }
 
 section.hidden {
@@ -125,7 +126,7 @@ h2 {
   }
 
   li{
-    font-size: 2rem;
+    font-size: 1rem;
   }
   a{
     font-size: 1.4rem;
