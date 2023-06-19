@@ -2,9 +2,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 
+
 export const Proyectos = () => {
   useEffect(()=>{
-    AOS.init({duration: 2000})
+    AOS.init({duration: 500})
   },[]);
     return(
         <div className="square-container" data-aos="fade-right">

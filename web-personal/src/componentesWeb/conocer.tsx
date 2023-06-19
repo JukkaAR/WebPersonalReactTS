@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export const Conocer = () => {
     useEffect(()=>{
-        AOS.init({duration: 2000})
+        AOS.init({duration: 300})
       },[]);
     return(
         <div className="square-container" data-aos="fade-right">
@@ -16,7 +16,7 @@ export const Conocer = () => {
               <li>- Java</li>
               <li>- MySQL</li>
               <li>- Python</li>
-              <li>- HTML,CSS,JavaScript</li>
+              <li>- HTML, CSS, JavaScript</li>
             </ul>
             </section>
         </div>

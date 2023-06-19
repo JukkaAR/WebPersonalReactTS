@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export const SobreMi = () => {
     useEffect(()=>{
-        AOS.init({duration: 2000})
+        AOS.init({duration: 500})
       },[]);
     return(
         <div className="square-container" data-aos="fade-left">

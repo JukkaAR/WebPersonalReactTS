@@ -38,18 +38,19 @@ export const Inicio: React.FC = () => {
 
   return (
     <section id="home" style={{ marginTop: "2rem" }}>
+      <h1>Jukka Aleksi Ahola Rivas</h1>
       <div className="flex-container">
-      <div>
-        <h2 className="align-left" style={{ width: "400px" }}>
-          Soy {text}
-          <span className="cursor" /> {/* Vertical rectangle cursor */}
-        </h2>
-      </div>
-      <img
-        src="/hombre_programando.gif"
-        alt="Gif Hombre programando"
-        className="responsive-image"
-      />
+        <div>
+          <h2 className="align-left" style={{ width: "400px" }}>
+            Soy {text}
+            <span className="cursor" /> {/* Vertical rectangle cursor */}
+          </h2>
+        </div>
+        <img
+          src="/hombre_programando.gif"
+          alt="Gif Hombre programando"
+          className="responsive-image"
+        />
       </div>
     </section>
   );
