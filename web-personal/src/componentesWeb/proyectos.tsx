@@ -15,7 +15,7 @@ export const Proyectos = () => {
             <ul>
               <li>
                 <h3>
-                  <a href="">Proyecto de final de grado</a>
+                  <a href="https://github.com/JukkaAR/GestionIncidenciasInformaticas">Proyecto de final de grado</a>
                 </h3>
               </li>
               <li>
