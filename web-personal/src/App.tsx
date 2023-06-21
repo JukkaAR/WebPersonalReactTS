@@ -18,6 +18,7 @@ function App() {
           <Navegacion/>
         </header>
         <Inicio/>
+        <div className="spacer"/>
         <Conocer/>
         <SobreMi/>
         <Proyectos/>

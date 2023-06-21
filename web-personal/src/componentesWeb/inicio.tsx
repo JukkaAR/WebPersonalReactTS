@@ -11,6 +11,7 @@ export const Inicio: React.FC = () => {
     "joven",
     "finlandés",
   ];
+
   useEffect(() => {
     const typingInterval = setInterval(() => {
       const currentText = texts[index];
@@ -46,12 +47,20 @@ export const Inicio: React.FC = () => {
             <span className="cursor" /> {/* Vertical rectangle cursor */}
           </h2>
         </div>
-        <img
-          src="/hombre_programando.gif"
-          alt="Gif Hombre programando"
+
+        <img 
           className="responsive-image"
+          src="/fotoCVFinal.png"
+          alt="Foto personal"
+          style={{
+            width: "clamp(100px, 30%, 1280px",
+            height: "50%",
+            borderRadius: "10%",
+          }}
         />
       </div>
+      
     </section>
+    
   );
 };
