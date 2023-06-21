@@ -41,26 +41,19 @@ export const Inicio: React.FC = () => {
     <section id="home" style={{ marginTop: "2rem" }}>
       <h1>Jukka Aleksi Ahola Rivas</h1>
       <div className="flex-container">
-        <div>
+        <div className="box">
           <h2 className="align-left" style={{ width: "400px" }}>
             Soy {text}
             <span className="cursor" /> {/* Vertical rectangle cursor */}
           </h2>
         </div>
-
-        <img 
-          className="responsive-image"
-          src="/fotoCVFinal.png"
-          alt="Foto personal"
-          style={{
-            width: "clamp(100px, 30%, 1280px",
-            height: "50%",
-            borderRadius: "10%",
-          }}
-        />
+        <div className="box">
+          <img
+            className="responsive-image"
+            src="/fotoCVFinal.png"
+            alt="Foto personal"/>
+        </div>
       </div>
-      
     </section>
-    
   );
 };

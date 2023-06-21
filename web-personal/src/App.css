@@ -99,16 +99,24 @@ h2 {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .responsive-image {
   /*width: 100%; /* Styles specific to mobile devices */
-  border-radius: 50%; 
-  width: 200px; 
-  height: 200px; 
-  border: 2px solid black;
-  
+  border-radius: 30%; 
+  height: fit-content; 
+  width: clamp(200px, 50%, 1280px);
 }
+.box{
+  width: 300px;
+  float: left;
+  text-align: center;
+  margin: 20px;
+}
+
+
 @media screen and (min-width: 768px) {
   .flex-container {
     flex-direction: row;
