@@ -15,12 +15,12 @@ export const Proyectos = () => {
             <ul>
               <li>
                 <h3>
-                  <a href="https://github.com/JukkaAR/GestionIncidenciasInformaticas">Proyecto de final de grado</a>
+                  <a href="https://github.com/JukkaAR/GestionIncidenciasInformaticas" target="_blank">Proyecto de final de grado</a>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <a href="https://github.com/JukkaAR/WebPersonalReactTS">Proyecto de Web Personal</a>
+                  <a href="https://github.com/JukkaAR/WebPersonalReactTS" target="_blank">Proyecto de Web Personal</a>
                 </h3>
               </li>
             </ul>
