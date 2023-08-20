@@ -6,12 +6,15 @@ import { Navegacion } from "./componentesWeb/navegacion";
 import { Proyectos } from "./componentesWeb/proyectos";
 import { SobreMi } from "./componentesWeb/sobreMi";
 import AOS from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
+import { Contactar } from "./componentesWeb/contactar";
 
 function App() {
+
   useEffect(()=>{
     AOS.init({duration: 500})
   },[]);
+
   return (
     <>
         <header>
@@ -22,6 +25,7 @@ function App() {
         <Conocer/>
         <SobreMi/>
         <Proyectos/>
+        <Contactar/>
     </>
   );
 }

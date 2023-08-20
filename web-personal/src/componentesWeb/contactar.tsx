@@ -3,7 +3,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import { useTranslation} from 'react-i18next';
 
-export const SobreMi = () => {
+export const Contactar = () => {
   const { t, i18n } = useTranslation();
 
     useEffect(()=>{
@@ -13,13 +13,16 @@ export const SobreMi = () => {
       },[]);
     return(
         <div className="square-container" data-aos="fade-left">
-            <section id="about">
-            <h2>{t('sobre_mi.titulo')}</h2>
+            <section id="contactar">
+            <h2>{t('contactar.titulo')}</h2>
             
-            <p>{t('sobre_mi.descripcion1')}<br/>
-            {t('sobre_mi.descripcion2')}<br/> 
-            {t('sobre_mi.descripcion3')}<br/>
-            {t('sobre_mi.descripcion4')}</p>
+            <ul>
+              <li>
+                <h3>
+                  <a href="https://www.linkedin.com/in/jukka-aleksi-ahola-rivas-864281280" target="_blank">LinkedIn</a>
+                </h3>
+              </li>
+            </ul>
           </section>
           
         </div>

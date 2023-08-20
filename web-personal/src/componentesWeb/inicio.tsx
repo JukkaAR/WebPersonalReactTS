@@ -1,18 +1,36 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation} from 'react-i18next';
 
 export const Inicio: React.FC = () => {
   //Animación de escritura
   const [text, setText] = useState<string>("");
   const [index, setIndex] = useState<number>(0);
-  const texts: string[] = [
-    "Jukka Ahola",
-    "programador",
-    "chileno",
-    "joven",
-    "finlandés",
+  const textKeys: string[] = [
+    "Jukka",
+    'inicio.programador',
+    'inicio.chileno',
+    'inicio.joven',
+    'inicio.finlandes',
   ];
+  
+  const { t, i18n } = useTranslation();
+  /*Translation init*/
+  useEffect(() => {
+        const lng = navigator.language;
+        i18n.changeLanguage(lng);
+  },[]);
+
+
+const [texts, setTexts] = useState<string[]>([]);
+
+useEffect(() => {
+  const translatedTexts = textKeys.map((key) => t(key));
+  setTexts(translatedTexts);
+}, [t]);
 
   useEffect(() => {
+
+    /*Typing animation*/
     const typingInterval = setInterval(() => {
       const currentText = texts[index];
       typeText(currentText, 0);
@@ -43,7 +61,7 @@ export const Inicio: React.FC = () => {
       <div className="flex-container">
         <div className="box">
           <h2 className="align-left" style={{ width: "400px" }}>
-            Soy {text}
+          {t('inicio.soy')} {text}
             <span className="cursor" /> {/* Vertical rectangle cursor */}
           </h2>
         </div>
