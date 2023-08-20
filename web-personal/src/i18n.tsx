@@ -46,7 +46,8 @@ i18n
             descripcion4:"I highly value sincerity and respect, both are fundamental to have an efficient and proactive team."
           },
           contactar:{
-            titulo:"Contact"
+            titulo:"Contact",
+            alerta:"Email address copied to clipboard"
           }
         },
       },
@@ -79,7 +80,8 @@ i18n
             descripcion4:"Valoro mucho la sinceridad y el respeto, son los fundamentos para tener un equipo proactivo y eficiente."
           },
           contactar:{
-            titulo:"Contactar"
+            titulo:"Contactar",
+            alerta:"Correo copiado al portapapeles"
           }
         },
       },
