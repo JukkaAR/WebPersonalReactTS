@@ -31,7 +31,7 @@ export const Contactar = () => {
 
   return (
     <div className="square-container" data-aos="fade-left">
-      <section id="contactar">
+      <section id="contact">
         <h2>{t("contactar.titulo")}</h2>
 
         <ul style={{ display: "flex", listStyle: "none", padding: 0, justifyContent: "center" }}>          <li style={{ marginRight: "1rem" }}>
@@ -48,7 +48,7 @@ export const Contactar = () => {
             </a>
           </li>
           <li>
-            <a target="_blank">
+            <a>
             <BiMailSend size="2rem" onClick={handleEmailCopy}/>
             </a>
           </li>

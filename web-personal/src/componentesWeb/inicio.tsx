@@ -68,7 +68,7 @@ useEffect(() => {
         <div className="box">
           <img
             className="responsive-image"
-            src="/fotoCVFinal.png"
+            src="/fotoCVFinal.webp"
             alt="Foto personal"/>
         </div>
       </div>
