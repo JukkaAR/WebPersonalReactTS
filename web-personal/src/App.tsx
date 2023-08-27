@@ -8,6 +8,8 @@ import { SobreMi } from "./componentesWeb/sobreMi";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Contactar } from "./componentesWeb/contactar";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
         <SobreMi/>
         <Proyectos/>
         <Contactar/>
+        <ToastContainer />
+
     </>
   );
 }
