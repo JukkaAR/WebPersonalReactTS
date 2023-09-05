@@ -42,23 +42,26 @@ export const Contactar = () => {
           <li style={{ marginRight: "1rem" }}>
             <a
               href="https://www.linkedin.com/in/jukka-aleksi-ahola-rivas-864281280"
-              target="_blank" aria-label={t("contactar.linkedin")}
+              target="_blank"
+              aria-label={t("contactar.linkedin")}
             >
               <BsLinkedin size="2rem" />
             </a>
           </li>
           <li>
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
-            aria-label={t("contactar.whatsapp")}>
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t("contactar.whatsapp")}
+            >
               <BsWhatsapp size="2rem" />
             </a>
           </li>
           <li>
-            <a>
-              <span className="email-icon" onClick={handleEmailCopy}>
-                <BiMailSend size="2rem" />
-              </span>
-            </a>
+            <span className="email-icon" onClick={handleEmailCopy}>
+              <BiMailSend size="2rem" />
+            </span>
           </li>
         </ul>
       </section>
