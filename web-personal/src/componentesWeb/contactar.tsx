@@ -54,7 +54,7 @@ export const Contactar = () => {
             </a>
           </li>
           <li>
-            <a aria-label={t("contactar.correo")}>
+            <a>
               <span className="email-icon" onClick={handleEmailCopy}>
                 <BiMailSend size="2rem" />
               </span>

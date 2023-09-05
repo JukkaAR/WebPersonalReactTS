@@ -49,8 +49,7 @@ i18n
             titulo:"Contact",
             alerta:"Email address copied to clipboard",
             linkedin:"Go to personal LinkedIn web profile",
-            whatsapp:"Open Whatsapp chat with me",
-            correo:"Copy e-mail to clipboard"
+            whatsapp:"Open Whatsapp chat with me"
           },
           first_tutorial:{
             title:"Adding multiple languages with i18next to your React app",
@@ -95,8 +94,7 @@ i18n
             titulo:"Contactar",
             alerta:"Correo copiado al portapapeles",
             linkedin:"Ir al perfil personal de LinkedIn",
-            whatsapp:"Abrir chat de Whatsapp conmigo",
-            correo:"Copiar correo electrónico al portapapeles"
+            whatsapp:"Abrir chat de Whatsapp conmigo"
           },
           first_tutorial:{
             title:"Añadir varios idiomas a tu aplicación React con i18next",
