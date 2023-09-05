@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' example.com; style-src 'self' fonts.googleapis.com;"
