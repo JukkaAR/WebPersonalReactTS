@@ -24,7 +24,8 @@ i18n
             programador:"a developer",
             chileno:"from Chile",
             joven:"young",
-            finlandes:"from Finland"
+            finlandes:"from Finland",
+            jukka:"Jukka"
           },
           conocer:{
             titulo:"Knowledge",
@@ -69,7 +70,8 @@ i18n
             programador:"programador",
             chileno:"chileno",
             joven:"joven",
-            finlandes:"finlandés"
+            finlandes:"finlandés",
+            jukka:"Jukka"
           },
           conocer:{
             titulo:"Conocimientos",

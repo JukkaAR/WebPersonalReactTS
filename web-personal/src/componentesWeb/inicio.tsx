@@ -6,7 +6,7 @@ export const Inicio: React.FC = () => {
   const [text, setText] = useState<string>("");
   const [index, setIndex] = useState<number>(0);
   const textKeys: string[] = [
-    "Jukka",
+    'inicio.jukka',
     'inicio.programador',
     'inicio.chileno',
     'inicio.joven',
