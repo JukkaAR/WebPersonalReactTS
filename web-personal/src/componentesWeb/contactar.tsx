@@ -42,18 +42,19 @@ export const Contactar = () => {
           <li style={{ marginRight: "1rem" }}>
             <a
               href="https://www.linkedin.com/in/jukka-aleksi-ahola-rivas-864281280"
-              target="_blank"
+              target="_blank" aria-label={t("contactar.linkedin")}
             >
               <BsLinkedin size="2rem" />
             </a>
           </li>
           <li>
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
+            aria-label={t("contactar.whatsapp")}>
               <BsWhatsapp size="2rem" />
             </a>
           </li>
           <li>
-            <a target="_blank">
+            <a aria-label={t("contactar.correo")}>
               <span className="email-icon" onClick={handleEmailCopy}>
                 <BiMailSend size="2rem" />
               </span>

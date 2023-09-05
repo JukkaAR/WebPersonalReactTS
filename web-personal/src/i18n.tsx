@@ -47,11 +47,19 @@ i18n
           },
           contactar:{
             titulo:"Contact",
-            alerta:"Email address copied to clipboard"
+            alerta:"Email address copied to clipboard",
+            linkedin:"Go to personal LinkedIn web profile",
+            whatsapp:"Open Whatsapp chat with me",
+            correo:"Copy e-mail to clipboard"
           },
           first_tutorial:{
             title:"Adding multiple languages with i18next to your React app",
             p1:"First of all, we need to install i18n into the React project, we do this by using the next command in VS Code:"
+          },
+          nav:{
+            home:"Go to the main page",
+            tutorial:"Go to tutorials page",
+            github:"Go to Github repository"
           }
         },
       },
@@ -85,11 +93,19 @@ i18n
           },
           contactar:{
             titulo:"Contactar",
-            alerta:"Correo copiado al portapapeles"
+            alerta:"Correo copiado al portapapeles",
+            linkedin:"Ir al perfil personal de LinkedIn",
+            whatsapp:"Abrir chat de Whatsapp conmigo",
+            correo:"Copiar correo electrónico al portapapeles"
           },
           first_tutorial:{
             title:"Añadir varios idiomas a tu aplicación React con i18next",
             p1:"Primero de todo, tendremos que instalar i18n en el proyecto de React, lo hacemos introduciendo el siguiente comando en VS Code:"
+          },
+          nav:{
+            home:"Ir a la página principal",
+            tutorial:"Ir a la página de tutoriales",
+            github:"Ir al repositorio de Github"
           }
         },
       },
