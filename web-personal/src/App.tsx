@@ -1,17 +1,19 @@
-import { useEffect } from "react";
-import "./App.css";
+import React, { useEffect, lazy, Suspense } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navegacion } from "./componentesWeb/navegacion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Conocer } from "./componentesWeb/conocer";
-import { Inicio } from "./componentesWeb/inicio";
-import { Proyectos } from "./componentesWeb/proyectos";
-import { SobreMi } from "./componentesWeb/sobreMi";
-import { Contactar } from "./componentesWeb/contactar";
-import { Tutoriali18n } from "./componentesWeb/tutoriali18n";
+import './App.css'; // Example import
+
+// Lazy-loaded components
+const Inicio = lazy(() => import("./componentesWeb/inicio"));
+const Conocer = lazy(() => import("./componentesWeb/conocer").then((module) => ({ default: module.Conocer })));
+const SobreMi = lazy(() => import("./componentesWeb/sobreMi").then((module) => ({ default: module.SobreMi })));
+const Proyectos = lazy(() => import("./componentesWeb/proyectos").then((module) => ({ default: module.Proyectos })));
+const Contactar = lazy(() => import("./componentesWeb/contactar").then((module) => ({ default: module.Contactar })));
+const Tutoriali18n = lazy(() => import("./componentesWeb/tutoriali18n").then((module) => ({ default: module.Tutoriali18n })));
 
 function App() {
   useEffect(() => {
@@ -28,14 +30,16 @@ function App() {
         <Route
           path="/"
           element={
-            <div>
-              <Inicio />
-              <Conocer />
-              <SobreMi />
-              <Proyectos />
-              <Contactar />
-              <div className="spacer" />
-            </div>
+            <Suspense fallback={<div>Loading...</div>}>
+              <div>
+                <Inicio />
+                <Conocer />
+                <SobreMi />
+                <Proyectos />
+                <Contactar />
+                <div className="spacer" />
+              </div>
+            </Suspense>
           }
         />
 

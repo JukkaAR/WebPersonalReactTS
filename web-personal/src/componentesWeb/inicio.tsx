@@ -1,35 +1,35 @@
-import React, { useEffect, useState } from "react";
-import { useTranslation} from 'react-i18next';
+import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 
-export const Inicio: React.FC = () => {
-  //Animación de escritura
+// Inicio.tsx
+
+function Inicio() {
+  // Component content here
   const [text, setText] = useState<string>("");
   const [index, setIndex] = useState<number>(0);
   const textKeys: string[] = [
-    'inicio.jukka',
-    'inicio.programador',
-    'inicio.chileno',
-    'inicio.joven',
-    'inicio.finlandes',
+    "inicio.jukka",
+    "inicio.programador",
+    "inicio.chileno",
+    "inicio.joven",
+    "inicio.finlandes",
   ];
-  
+
   const { t, i18n } = useTranslation();
   /*Translation init*/
   useEffect(() => {
-        const lng = navigator.language;
-        i18n.changeLanguage(lng);
-  },[]);
+    const lng = navigator.language;
+    i18n.changeLanguage(lng);
+  }, []);
 
-
-const [texts, setTexts] = useState<string[]>([]);
-
-useEffect(() => {
-  const translatedTexts = textKeys.map((key) => t(key));
-  setTexts(translatedTexts);
-}, [t]);
+  const [texts, setTexts] = useState<string[]>([]);
 
   useEffect(() => {
+    const translatedTexts = textKeys.map((key) => t(key));
+    setTexts(translatedTexts);
+  }, [t]);
 
+  useEffect(() => {
     /*Typing animation*/
     const typingInterval = setInterval(() => {
       const currentText = texts[index];
@@ -61,7 +61,7 @@ useEffect(() => {
       <div className="flex-container">
         <div className="box">
           <h2 className="align-left" style={{ width: "400px" }}>
-          {t('inicio.soy')} {text}
+            {t("inicio.soy")} {text}
             <span className="cursor" /> {/* Vertical rectangle cursor */}
           </h2>
         </div>
@@ -69,9 +69,12 @@ useEffect(() => {
           <img
             className="responsive-image"
             src="/fotoCVFinal.webp"
-            alt="Foto personal"/>
+            alt="Foto personal"
+          />
         </div>
       </div>
     </section>
   );
-};
+}
+
+export default Inicio;
