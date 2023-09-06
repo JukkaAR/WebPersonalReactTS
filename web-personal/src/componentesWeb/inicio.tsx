@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 // Inicio.tsx
 
-function Inicio() {
+export const Inicio = () => {
   // Component content here
   const [text, setText] = useState<string>("");
   const [index, setIndex] = useState<number>(0);
@@ -75,6 +75,6 @@ function Inicio() {
       </div>
     </section>
   );
-}
+};
 
 export default Inicio;
