@@ -9,6 +9,8 @@ export const Tutoriales = () => {
   }, []);
   return (
     <>
+      <link rel="preconnect" href="https://jukka-ahola.netlify.app/" />
+
       <div className="spacer" />
       <div>
         <Tutoriali18n />
