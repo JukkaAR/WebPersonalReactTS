@@ -33,9 +33,9 @@ const Contactar = lazy(() =>
     default: module.Contactar,
   }))
 );
-const Tutoriali18n = lazy(() =>
-  import("./componentesWeb/tutoriali18n").then((module) => ({
-    default: module.Tutoriali18n,
+const Tutoriales = lazy(() =>
+  import("./componentesWeb/tutoriales").then((module) => ({
+    default: module.Tutoriales,
   }))
 );
 
@@ -67,7 +67,7 @@ function App() {
           }
         />
 
-        <Route path="/tutorial" element={<Tutoriali18n />} />
+        <Route path="/tutorial" element={<Tutoriales />} />
       </Routes>
       <ToastContainer />
     </Router>

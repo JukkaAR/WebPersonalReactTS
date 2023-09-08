@@ -54,7 +54,11 @@ i18n
           },
           first_tutorial:{
             title:"Adding multiple languages with i18next to your React app",
-            p1:"First of all, we need to install i18n into the React project, we do this by using the next command in VS Code:"
+            p1:"First of all, we need to install i18n into the React project, we do this by using the next command in VS Code:",
+            crear_archivo:"Then, we have to create a new file called 'i18n' in the src folder of the project, after that we'll need to use this type of code structure for the project:",
+            importarEnMain:"In the 'main.tsx' (or 'main.js') file, we'll also need to import:",
+            usarEnClase:"Now, let's use it in an example:",
+            finalTutorial:"Finally, we can test with the browser switching between English or Spanish with this example, we can also add more languages following the ISO language code into the i18n file."
           },
           nav:{
             home:"Go to the main page",
@@ -100,7 +104,12 @@ i18n
           },
           first_tutorial:{
             title:"Añadir varios idiomas a tu aplicación React con i18next",
-            p1:"Primero de todo, tendremos que instalar i18n en el proyecto de React, lo hacemos introduciendo el siguiente comando en VS Code:"
+            p1:"Primero de todo, tendremos que instalar i18n en el proyecto de React, lo hacemos introduciendo el siguiente comando en VS Code:",
+            crearArchivo:"Luego, debemos de crear un nuevo archivo llamado 'i18n' en la carpeta src del proyecto y posteriormente usaremos una estructura de código como la siguiente:",
+            importarEnMain:"En el archivo 'main.tsx' (o 'main.js'), debemos de añadir el import:",
+            usarEnClase:"Vamos a probar todo esto en una clase de ejemplo:",
+            finalTutorial:"Finalmente, podremos probar cambiar entre un idioma y otro en el navegador, así se puede observar que la página cambia de idioma. También es importante saber que se pueden añadir más idiomas con la codificación de lenguaje ISO."
+
           },
           nav:{
             home:"Ir a la página principal",
